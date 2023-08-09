@@ -4,7 +4,7 @@ radix tree javascript
 How to use:
 
 Save radix.js file to your project folder.
-
+```
 const radix = require('./radix');
 
 var rtree = new radix();
@@ -19,3 +19,4 @@ rtree.forEach((k,v)=>{
   console.log("PATH: "+k);
   console.log("VALUE: "+v);
 });
+```
