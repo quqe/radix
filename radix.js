@@ -36,9 +36,9 @@ module.exports = class RadixT {
 					k = Object.keys(r[1]);
 					if (k.length == 1) {
 						r[0]+=r[1][k[0]][0];
-						r[1]=r[1][k[0]][1];
 						if(r[1][k[0]][2])
 							r[2]=r[1][k[0]][2];
+						r[1]=r[1][k[0]][1];
 					} else if (k.length > 1)
 						if(r.length==3)
 							r.pop();//DELETE 
